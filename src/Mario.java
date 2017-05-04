@@ -20,6 +20,7 @@ public class Mario extends MovingImage {
 	// METHODS
 	public void walk(int dir) {
 		moveByAmount(dir*2,0);
+		System.out.println("Tested");
 	}
 
 	public void jump() {
